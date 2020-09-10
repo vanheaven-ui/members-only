@@ -2,9 +2,9 @@
 
 This project involves authenticating users to access certain features of the application.
   
-[![View Code](https://img.shields.io/badge/View%20-Code-green)](https://github.com/vanheaven-ui/micro-reddit)
-[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/vanheaven-ui/micro-reddit/issues)
-[![GitHub Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/vanheaven-ui/micro-reddit/pulls)
+[![View Code](https://img.shields.io/badge/View%20-Code-green)](https://github.com/vanheaven-ui/members-only)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/vanheaven-ui/members-only/issues)
+[![GitHub Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/vanheaven-ui/members-only/pulls)
 [![Author](https://img.shields.io/badge/Github-Author-black)](https://github.com/vanheaven-ui)
 [![Twitter Follow](https://img.shields.io/badge/Twitter-Ezekiel-%231DA1F2)](https://twitter.com/MworekwaE)
 [![LinkedIn follow](https://img.shields.io/badge/LinkedIn-Ezekiel-%232867B2)](https://www.linkedin.com/in/vanheaven/)
@@ -36,6 +36,10 @@ The project specifications were focused on restricting public access to certain 
   - [ ] Bootstrap (5.0.0.alpha1)
   - [ ] Devise (4.7.2)
 
+## Live Demo
+Here is a link for live demostration
+
+[Click for app!]()
 
 ## Usage <a name = "usage"></a>
 To use the code in this repository, follow the steps in this section:
