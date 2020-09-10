@@ -7,9 +7,9 @@ ruby '2.7.0'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database in development
 group :development, :test do
-  gem 'sqlite3'
+ gem 'sqlite3'
 end
-# Use PostgreSQL in production
+
 group :production do
   gem 'pg'
 end
