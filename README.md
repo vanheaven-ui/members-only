@@ -14,12 +14,13 @@ This project involves authenticating users to access certain features of the app
 Here is a screenshot of the index page with a logged in member.
 
 <img src="/app/assets/images/screenshot.jpeg" alt="screenshot">
+
 ## Content
 
 <a text-align="center" href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#ins">Installations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#app">Testing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#app">App</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#author">Author</a>
 
@@ -37,12 +38,12 @@ The project specifications were focused on restricting public access to certain 
 
 
 ## Usage <a name = "usage"></a>
-To use the code in this repository, follow the steps in this section
+To use the code in this repository, follow the steps in this section:
 
 ### 🔨 Preliquisites
  You should have the following inorder to run the code contained herein.
 - Ruby version ruby 2.7.0p0 (2019-12-25 revision 647ee6f091). 
-- Rails version rails 5.2.3
+- Rails version rails 5.2.3.
 
 ### 🔨 Setup
 First get a copy of project on your computer:
@@ -54,7 +55,7 @@ Once you have a local copy of the entire project on your computer and you dont m
 - Visit [Ruby Installations](https://www.ruby-lang.org/en/documentation/installation/) to install ruby version  2.7.0
 - Visit [Rails installations guide](https://guides.rubyonrails.org/v5.0/getting_started.html) to install rails version 5.2.3
 
-### Usage"><a name = "app"</a>
+###  App <a name = "app"></a>
 With the installations above complete, you are set to use the code and view the application built in this repository. Follow these simple steps:
 
 - Change directory into the directory where you cloned the repository.
@@ -91,6 +92,6 @@ And your reward awaits in heaven.
 Give a ⭐️ if you like this project!
 
 ## :clap: Acknowledgements
-[The Odin project Guide:](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)<br />
-[Microverse guide:](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/49722535)
+[The Odin project Guide:](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)<br />
+[Microverse guide:](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/49722686/)
 
