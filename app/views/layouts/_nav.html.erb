@@ -1,13 +1,20 @@
 <section class="header">
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-md navbar-info text-white">
+  <nav class="navbar navbar-expand-md navbar-default bg-dark text-white">
+    <div class="container-fluid">
       <%= link_to 'SaysWho', root_url, class: "navbar-brand" %>
       <div class="navbar-right">
-        <%= link_to current_member.name, edit_member_registration_path, class: "btn btn-light" %>
-        <%= link_to 'Logout', destroy_member_session_path, 
-                              method: :delete,
-                              data: { confirm: 'Are you sure you want to logout?' } %>
+        <% if member_signed_in? %>
+          <%= link_to 'New Post', root_path, class: "btn btn-light" %>
+          <%= link_to current_member.name, edit_member_registration_path, class: "btn btn-info", title: 'Click to edit profile' %>
+          <%= link_to 'Logout', destroy_member_session_path, 
+                                  method: :delete,
+                                  data: { confirm: 'Are you sure you want to logout?' },
+                                  class: "btn btn-outline-secondary" %>
+        <% else %>
+          <%= link_to 'Sign In', new_member_session_path, class: 'btn btn-info' %>
+          <%= link_to 'Sign Up', new_member_registration_path, class: 'btn btn-info' %>
+        <% end %>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </section>

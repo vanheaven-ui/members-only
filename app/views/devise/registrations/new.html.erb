@@ -1,6 +1,6 @@
-<div class="card w-50 sign-up">
-  <h2>Sign up</h2>
-
+<div class="card devise-form-wrap">
+  <h2 class="mb-0">Sign up</h2>
+  <hr />
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     <%= render "devise/shared/error_messages", resource: resource %>
 
@@ -29,13 +29,13 @@
 
     <div class="form-group">
       <%= f.label :password_confirmation %><br />
-      <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control" %>
+      <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control mb-2" %>
     </div>
 
     <div class="actions">
-      <%= f.submit "Sign up" %>
+      <%= f.submit "Sign up", class: 'mb-2' %>
     </div>
   <% end %>
 
-  <%= render "devise/shared/links" %>
+  <p>(Already have an Account?)<%= render "devise/shared/links" %></p>
 </div>
