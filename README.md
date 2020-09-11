@@ -39,7 +39,7 @@ The project specifications were focused on restricting public access to certain 
 ## Live Demo
 Here is a link for live demostration
 
-[Click for app!]()
+[Click for app!](https://thawing-everglades-00464.herokuapp.com/)
 
 ## Usage <a name = "usage"></a>
 To use the code in this repository, follow the steps in this section:
