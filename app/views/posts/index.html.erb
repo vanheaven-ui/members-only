@@ -1,0 +1,15 @@
+<section class="index">
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-12 col-md-6">
+        <% if member_signed_in? %>
+          <%= render "posts/form" %>
+        <% end %>
+        <%= render "posts/feed" %>
+      </div>
+      <div class="col-md-3"></div>
+      </div>
+    </div>
+  </div>
+</section>

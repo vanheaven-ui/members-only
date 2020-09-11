@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <% if flash[:notice] %>
+      <p class="alert alert-success mb-0 text-center"><%= notice %></p>
+    <% end %>
+     <% if flash[:alert] %>
+      <p class="alert alert-danger mb-0 text-center"><%= alert %></p>
+    <% end %>
+    <%= render 'layouts/nav' %>
     <%= yield %>
   </body>
 </html>

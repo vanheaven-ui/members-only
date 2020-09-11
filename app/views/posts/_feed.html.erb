@@ -1,0 +1,20 @@
+<section class="feeds mt-2">
+  <h2>Posts</h2>
+
+  <% @posts.each do |post| %>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-info"><strong><u><%= post.title %></u></strong></h5>
+        <p><%= post.body %></p>
+      </div>
+      <% if member_signed_in? %>
+        <div class="author px-3">
+          <small><strong>Written By: </strong>
+            <span><%= post.member.name %>-</span>
+            <em>@<%= post.member.username %></em>
+          </small>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</section>
