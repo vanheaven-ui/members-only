@@ -63,6 +63,7 @@ Once you have a local copy of the entire project on your computer and you dont m
 With the installations above complete, you are set to use the code and view the application built in this repository. Follow these simple steps:
 
 - Change directory into the directory where you cloned the repository.
+- First run ``bundle install`` to install the gems in the Gemfile.
 - run ``rails s`` or ``rails server`` to start the server.
 - Once the server starts(Might take about 3-5 minutes), you can access the application by typing     localhost:3000 in your browser and striking ``Enter``.
 
