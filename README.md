@@ -26,7 +26,7 @@ Here is a screenshot of the index page with a logged in member.
 
 
 ## About <a name = "about"></a>
-The project specifications were focused on restricting public access to certain features of the application by requiring log in. In this project, Devise gem and its helper methods were used for authentication while bootstrap was used to apply some quick style rules for the small user interface. For the application built here, a member who is not signed in can only view a post but not the author of it while a member who is logged in can view both the post and the author of it.
+The project specifications were focused on restricting public access to certain features of the application by requiring log in. In this project, Devise gem and its helper methods were used for authentication while bootstrap was used to apply some quick style rules for the small user interface. More so, a member who is not signed in can only view a post but not the author of it while a member who is logged in can view both the post and the author of it.
 
 ## 🔧 Built with<a name = "with"></a>
 
