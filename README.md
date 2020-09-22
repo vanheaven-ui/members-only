@@ -79,7 +79,7 @@ With the installations above complete, you are set to use the code and view the 
 
 Contributions, issues and feature requests are welcome!
 
-- To create an issue, visit the [issues page](https://github.com/vanheaven-ui/ruby-telegram-bot/issues) and create a new issue.
+- To create an issue, visit the [issues page](https://github.com/vanheaven-ui/members-only/) and create a new issue.
 - To contribute to the code base, follow the steps below:
   1. Fork this repository to your remote respository by clicking the Fork button in this repository.
   2. Clone this repository to a directory on your computer by following Github guidelines.
