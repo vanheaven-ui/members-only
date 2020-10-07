@@ -54,7 +54,7 @@ First get a copy of project on your computer:
 - Clone or download the repository to a local directory on your computer by following the Github instructions.
 
 ### 🛠 Installing <a name = "ins"></a>
-Once you have a local copy of the entire project on your computer and you dont meet the above preliquisites, then:
+Once you have a local copy of the entire project on your computer and you don't meet the above preliquisites, then:
 
 - Visit [Ruby Installations](https://www.ruby-lang.org/en/documentation/installation/) to install ruby version  2.7.0
 - Visit [Rails installations guide](https://guides.rubyonrails.org/v5.0/getting_started.html) to install rails version 5.2.3
@@ -63,6 +63,8 @@ Once you have a local copy of the entire project on your computer and you dont m
 With the installations above complete, you are set to use the code and view the application built in this repository. Follow these simple steps:
 
 - Change directory into the directory where you cloned the repository.
+- Run ``rails db:create`` to setup the database.
+- Run ``rails db:migrate`` to update the database.
 - run ``rails s`` or ``rails server`` to start the server.
 - Once the server starts(Might take about 3-5 minutes), you can access the application by typing     localhost:3000 in your browser and striking ``Enter``.
 
